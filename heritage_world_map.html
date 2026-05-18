@@ -1,0 +1,431 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_ce6b3479435087b164bd4bb0b8f564f3 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+
+            <style>html, body {
+                width: 100%;
+                height: 100%;
+                margin: 0;
+                padding: 0;
+            }
+            </style>
+
+            <style>#map {
+                position:absolute;
+                top:0;
+                bottom:0;
+                right:0;
+                left:0;
+                }
+            </style>
+
+            <script>
+                L_NO_TOUCH = false;
+                L_DISABLE_3D = false;
+            </script>
+
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_ce6b3479435087b164bd4bb0b8f564f3" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_ce6b3479435087b164bd4bb0b8f564f3 = L.map(
+                "map_ce6b3479435087b164bd4bb0b8f564f3",
+                {
+                    center: [20.0, 60.0],
+                    crs: L.CRS.EPSG3857,
+                    ...{
+  "zoom": 2,
+  "zoomControl": true,
+  "preferCanvas": false,
+}
+
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_4704378e3d048e1683613536c6435985 = L.tileLayer(
+                "https://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}{r}.png",
+                {
+  "minZoom": 0,
+  "maxZoom": 20,
+  "maxNativeZoom": 20,
+  "noWrap": false,
+  "attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors \u0026copy; \u003ca href=\"https://carto.com/attributions\"\u003eCARTO\u003c/a\u003e",
+  "subdomains": "abcd",
+  "detectRetina": false,
+  "tms": false,
+  "opacity": 1,
+}
+
+            );
+        
+    
+            tile_layer_4704378e3d048e1683613536c6435985.addTo(map_ce6b3479435087b164bd4bb0b8f564f3);
+        
+    
+            var circle_marker_66217cbce52908d59fe442cd234dad4f = L.circleMarker(
+                [20.5519, 75.7033],
+                {"bubblingMouseEvents": true, "color": "#27ae60", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#27ae60", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 16.0, "stroke": true, "weight": 3}
+            ).addTo(map_ce6b3479435087b164bd4bb0b8f564f3);
+        
+    
+        var popup_5efd63d307dbf7fd7850431ca0cb6602 = L.popup({
+  "maxWidth": 200,
+});
+
+        
+            
+                var html_1b98595e18bf7820c2ea3a04f54a4905 = $(`<div id="html_1b98595e18bf7820c2ea3a04f54a4905" style="width: 100.0%; height: 100.0%;">     <b>Ajanta Caves</b><br>     Country: India<br>     Avg Rating: 3.93/5<br>     Reviews: 300<br>     Positive: 72.0%<br>     Negative: 13.3%<br>     VADER Score: 0.819     </div>`)[0];
+                popup_5efd63d307dbf7fd7850431ca0cb6602.setContent(html_1b98595e18bf7820c2ea3a04f54a4905);
+            
+        
+
+        circle_marker_66217cbce52908d59fe442cd234dad4f.bindPopup(popup_5efd63d307dbf7fd7850431ca0cb6602)
+        ;
+
+        
+    
+    
+            circle_marker_66217cbce52908d59fe442cd234dad4f.bindTooltip(
+                `<div>
+                     Ajanta Caves | ⭐3.93
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_1edecdfab6e79ae465012508bb84f958 = L.circleMarker(
+                [13.4125, 103.867],
+                {"bubblingMouseEvents": true, "color": "#27ae60", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#27ae60", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 16.0, "stroke": true, "weight": 3}
+            ).addTo(map_ce6b3479435087b164bd4bb0b8f564f3);
+        
+    
+        var popup_a510f5c9a847e12e90dda2ff44c79665 = L.popup({
+  "maxWidth": 200,
+});
+
+        
+            
+                var html_19f19c4dd1a6e5cdce6f029e31bab656 = $(`<div id="html_19f19c4dd1a6e5cdce6f029e31bab656" style="width: 100.0%; height: 100.0%;">     <b>Angkor Wat</b><br>     Country: Cambodia<br>     Avg Rating: 3.87/5<br>     Reviews: 300<br>     Positive: 72.3%<br>     Negative: 16.0%<br>     VADER Score: 0.808     </div>`)[0];
+                popup_a510f5c9a847e12e90dda2ff44c79665.setContent(html_19f19c4dd1a6e5cdce6f029e31bab656);
+            
+        
+
+        circle_marker_1edecdfab6e79ae465012508bb84f958.bindPopup(popup_a510f5c9a847e12e90dda2ff44c79665)
+        ;
+
+        
+    
+    
+            circle_marker_1edecdfab6e79ae465012508bb84f958.bindTooltip(
+                `<div>
+                     Angkor Wat | ⭐3.87
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_a5a34bc8f5fe5dea0618d2536bd352f7 = L.circleMarker(
+                [41.8902, 12.4922],
+                {"bubblingMouseEvents": true, "color": "#27ae60", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#27ae60", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 16.0, "stroke": true, "weight": 3}
+            ).addTo(map_ce6b3479435087b164bd4bb0b8f564f3);
+        
+    
+        var popup_fd37d135f65d52b5c6cf2635b202ecd6 = L.popup({
+  "maxWidth": 200,
+});
+
+        
+            
+                var html_4c8e3262f70cf9c70b2e0189933f414e = $(`<div id="html_4c8e3262f70cf9c70b2e0189933f414e" style="width: 100.0%; height: 100.0%;">     <b>Colosseum</b><br>     Country: Italy<br>     Avg Rating: 3.82/5<br>     Reviews: 300<br>     Positive: 69.3%<br>     Negative: 19.0%<br>     VADER Score: 0.787     </div>`)[0];
+                popup_fd37d135f65d52b5c6cf2635b202ecd6.setContent(html_4c8e3262f70cf9c70b2e0189933f414e);
+            
+        
+
+        circle_marker_a5a34bc8f5fe5dea0618d2536bd352f7.bindPopup(popup_fd37d135f65d52b5c6cf2635b202ecd6)
+        ;
+
+        
+    
+    
+            circle_marker_a5a34bc8f5fe5dea0618d2536bd352f7.bindTooltip(
+                `<div>
+                     Colosseum | ⭐3.82
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_57b44e5526fb6cda6e66ee0a68643573 = L.circleMarker(
+                [40.4319, 116.5704],
+                {"bubblingMouseEvents": true, "color": "#27ae60", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#27ae60", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 16.0, "stroke": true, "weight": 3}
+            ).addTo(map_ce6b3479435087b164bd4bb0b8f564f3);
+        
+    
+        var popup_1b19a67895c363dc6926e58437e012d7 = L.popup({
+  "maxWidth": 200,
+});
+
+        
+            
+                var html_6ecb50935b09aa0d8e395ea1703c0bbf = $(`<div id="html_6ecb50935b09aa0d8e395ea1703c0bbf" style="width: 100.0%; height: 100.0%;">     <b>Great Wall of China</b><br>     Country: China<br>     Avg Rating: 3.87/5<br>     Reviews: 300<br>     Positive: 72.3%<br>     Negative: 17.3%<br>     VADER Score: 0.803     </div>`)[0];
+                popup_1b19a67895c363dc6926e58437e012d7.setContent(html_6ecb50935b09aa0d8e395ea1703c0bbf);
+            
+        
+
+        circle_marker_57b44e5526fb6cda6e66ee0a68643573.bindPopup(popup_1b19a67895c363dc6926e58437e012d7)
+        ;
+
+        
+    
+    
+            circle_marker_57b44e5526fb6cda6e66ee0a68643573.bindTooltip(
+                `<div>
+                     Great Wall of China | ⭐3.87
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_f2749a12001feac844811b6cee671de3 = L.circleMarker(
+                [15.335, 76.46],
+                {"bubblingMouseEvents": true, "color": "#27ae60", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#27ae60", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 16.0, "stroke": true, "weight": 3}
+            ).addTo(map_ce6b3479435087b164bd4bb0b8f564f3);
+        
+    
+        var popup_90a2062ed5d657ccb3aa47cec39b8424 = L.popup({
+  "maxWidth": 200,
+});
+
+        
+            
+                var html_9d56abb6fbbb6c61da6ab46966107056 = $(`<div id="html_9d56abb6fbbb6c61da6ab46966107056" style="width: 100.0%; height: 100.0%;">     <b>Hampi</b><br>     Country: India<br>     Avg Rating: 4.04/5<br>     Reviews: 300<br>     Positive: 77.0%<br>     Negative: 13.0%<br>     VADER Score: 0.800     </div>`)[0];
+                popup_90a2062ed5d657ccb3aa47cec39b8424.setContent(html_9d56abb6fbbb6c61da6ab46966107056);
+            
+        
+
+        circle_marker_f2749a12001feac844811b6cee671de3.bindPopup(popup_90a2062ed5d657ccb3aa47cec39b8424)
+        ;
+
+        
+    
+    
+            circle_marker_f2749a12001feac844811b6cee671de3.bindTooltip(
+                `<div>
+                     Hampi | ⭐4.04
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_7150917a0431ba2c891b387c7cab7f51 = L.circleMarker(
+                [24.8318, 79.9199],
+                {"bubblingMouseEvents": true, "color": "#27ae60", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#27ae60", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 16.0, "stroke": true, "weight": 3}
+            ).addTo(map_ce6b3479435087b164bd4bb0b8f564f3);
+        
+    
+        var popup_aadc98dcd5121645876e6ad2b7f0ca03 = L.popup({
+  "maxWidth": 200,
+});
+
+        
+            
+                var html_7e26bed914017a011c52b1f2e4d22644 = $(`<div id="html_7e26bed914017a011c52b1f2e4d22644" style="width: 100.0%; height: 100.0%;">     <b>Khajuraho Temples</b><br>     Country: India<br>     Avg Rating: 3.99/5<br>     Reviews: 300<br>     Positive: 77.3%<br>     Negative: 15.7%<br>     VADER Score: 0.852     </div>`)[0];
+                popup_aadc98dcd5121645876e6ad2b7f0ca03.setContent(html_7e26bed914017a011c52b1f2e4d22644);
+            
+        
+
+        circle_marker_7150917a0431ba2c891b387c7cab7f51.bindPopup(popup_aadc98dcd5121645876e6ad2b7f0ca03)
+        ;
+
+        
+    
+    
+            circle_marker_7150917a0431ba2c891b387c7cab7f51.bindTooltip(
+                `<div>
+                     Khajuraho Temples | ⭐3.99
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_0dc74e1bd70b2a70ef27196492b952a1 = L.circleMarker(
+                [-13.1631, -72.545],
+                {"bubblingMouseEvents": true, "color": "#27ae60", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#27ae60", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 16.0, "stroke": true, "weight": 3}
+            ).addTo(map_ce6b3479435087b164bd4bb0b8f564f3);
+        
+    
+        var popup_955a7ded9e3d3b6840a9a6a94d437f2b = L.popup({
+  "maxWidth": 200,
+});
+
+        
+            
+                var html_297885df0e39bea40fd362a47265b7b4 = $(`<div id="html_297885df0e39bea40fd362a47265b7b4" style="width: 100.0%; height: 100.0%;">     <b>Machu Picchu</b><br>     Country: Peru<br>     Avg Rating: 4.00/5<br>     Reviews: 300<br>     Positive: 78.0%<br>     Negative: 12.0%<br>     VADER Score: 0.850     </div>`)[0];
+                popup_955a7ded9e3d3b6840a9a6a94d437f2b.setContent(html_297885df0e39bea40fd362a47265b7b4);
+            
+        
+
+        circle_marker_0dc74e1bd70b2a70ef27196492b952a1.bindPopup(popup_955a7ded9e3d3b6840a9a6a94d437f2b)
+        ;
+
+        
+    
+    
+            circle_marker_0dc74e1bd70b2a70ef27196492b952a1.bindTooltip(
+                `<div>
+                     Machu Picchu | ⭐4.00
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_449782c4b2b9985cf158daff40533807 = L.circleMarker(
+                [30.3285, 35.4444],
+                {"bubblingMouseEvents": true, "color": "#27ae60", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#27ae60", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 16.0, "stroke": true, "weight": 3}
+            ).addTo(map_ce6b3479435087b164bd4bb0b8f564f3);
+        
+    
+        var popup_315ad0b322ffa0d850df3d810d7cf59f = L.popup({
+  "maxWidth": 200,
+});
+
+        
+            
+                var html_4d97247d1ff4a162bcb51c183f24b411 = $(`<div id="html_4d97247d1ff4a162bcb51c183f24b411" style="width: 100.0%; height: 100.0%;">     <b>Petra</b><br>     Country: Jordan<br>     Avg Rating: 3.85/5<br>     Reviews: 300<br>     Positive: 71.0%<br>     Negative: 18.3%<br>     VADER Score: 0.799     </div>`)[0];
+                popup_315ad0b322ffa0d850df3d810d7cf59f.setContent(html_4d97247d1ff4a162bcb51c183f24b411);
+            
+        
+
+        circle_marker_449782c4b2b9985cf158daff40533807.bindPopup(popup_315ad0b322ffa0d850df3d810d7cf59f)
+        ;
+
+        
+    
+    
+            circle_marker_449782c4b2b9985cf158daff40533807.bindTooltip(
+                `<div>
+                     Petra | ⭐3.85
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_16671531b67faae2148cde32a7fa7622 = L.circleMarker(
+                [28.5245, 77.1855],
+                {"bubblingMouseEvents": true, "color": "#27ae60", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#27ae60", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 16.0, "stroke": true, "weight": 3}
+            ).addTo(map_ce6b3479435087b164bd4bb0b8f564f3);
+        
+    
+        var popup_c69611e93da918dcb3a1aa3298d45e1a = L.popup({
+  "maxWidth": 200,
+});
+
+        
+            
+                var html_6221b239a4d9c5779ef2e6bd9e5fece9 = $(`<div id="html_6221b239a4d9c5779ef2e6bd9e5fece9" style="width: 100.0%; height: 100.0%;">     <b>Qutb Minar</b><br>     Country: India<br>     Avg Rating: 4.02/5<br>     Reviews: 300<br>     Positive: 76.0%<br>     Negative: 14.0%<br>     VADER Score: 0.864     </div>`)[0];
+                popup_c69611e93da918dcb3a1aa3298d45e1a.setContent(html_6221b239a4d9c5779ef2e6bd9e5fece9);
+            
+        
+
+        circle_marker_16671531b67faae2148cde32a7fa7622.bindPopup(popup_c69611e93da918dcb3a1aa3298d45e1a)
+        ;
+
+        
+    
+    
+            circle_marker_16671531b67faae2148cde32a7fa7622.bindTooltip(
+                `<div>
+                     Qutb Minar | ⭐4.02
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_5a7bb8659fd09abd59d56042532af1d4 = L.circleMarker(
+                [27.1751, 78.0421],
+                {"bubblingMouseEvents": true, "color": "#27ae60", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#27ae60", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 16.0, "stroke": true, "weight": 3}
+            ).addTo(map_ce6b3479435087b164bd4bb0b8f564f3);
+        
+    
+        var popup_43ead4077825726f853fc460a5b128b5 = L.popup({
+  "maxWidth": 200,
+});
+
+        
+            
+                var html_4d07eeaf0cae82e80750bccf69d39a6f = $(`<div id="html_4d07eeaf0cae82e80750bccf69d39a6f" style="width: 100.0%; height: 100.0%;">     <b>Taj Mahal</b><br>     Country: India<br>     Avg Rating: 4.05/5<br>     Reviews: 300<br>     Positive: 76.0%<br>     Negative: 14.7%<br>     VADER Score: 0.833     </div>`)[0];
+                popup_43ead4077825726f853fc460a5b128b5.setContent(html_4d07eeaf0cae82e80750bccf69d39a6f);
+            
+        
+
+        circle_marker_5a7bb8659fd09abd59d56042532af1d4.bindPopup(popup_43ead4077825726f853fc460a5b128b5)
+        ;
+
+        
+    
+    
+            circle_marker_5a7bb8659fd09abd59d56042532af1d4.bindTooltip(
+                `<div>
+                     Taj Mahal | ⭐4.05
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+</script>
+</html>
