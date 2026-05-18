@@ -1,0 +1,52 @@
+# ============================================================
+# .gitignore — Heritage Review Intelligence Project
+# ============================================================
+
+# ── Kaggle Raw Data (too large / terms of service) ──────────
+data/tripadvisor_hotel_reviews.csv
+data/New_Delhi_reviews.csv
+*.zip
+
+# ── Python ──────────────────────────────────────────────────
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+dist/
+build/
+.eggs/
+*.egg
+
+# ── Virtual Environments ─────────────────────────────────────
+venv/
+env/
+.venv/
+.env/
+
+# ── Jupyter Notebook Checkpoints ────────────────────────────
+.ipynb_checkpoints/
+*/.ipynb_checkpoints/
+
+# ── OS Files ─────────────────────────────────────────────────
+.DS_Store
+.DS_Store?
+Thumbs.db
+desktop.ini
+
+# ── IDE ──────────────────────────────────────────────────────
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# ── Kaggle API Key ───────────────────────────────────────────
+kaggle.json
+.kaggle/
+
+# ── Large Output Files (optional to exclude) ─────────────────
+# Uncomment if output PNGs are too large for GitHub
+# outputs/*.png
+
+# ── Logs ─────────────────────────────────────────────────────
+*.log
+logs/
